@@ -13,9 +13,9 @@ PORT=
 DB*URI =
 \_fill each filed with your info respectively*
 
-![proof images for challenge 1](/client/assets/Capture-1.png "challenge images")
-![proof images for challenge 2](/client/assets/Capture-2.png "challenge images")
-![proof images for challenge 3](/client/assets/Capture-3.png "challenge images")
+![proof images for challenge 1](/client/assets/Capture-1.PNG "challenge images")
+![proof images for challenge 2](/client/assets/Capture-2.PNG "challenge images")
+![proof images for challenge 3](/client/assets/Capture-3.PNG "challenge images")
 
 ## Author
 
