@@ -1,0 +1,181 @@
+.settingsContainer {
+  display: grid;
+  grid-template-columns: 1.6fr 8fr;
+  height: 100vh;
+}
+
+.left-col {
+  background-color: rgba(97, 97, 97, 0.15);
+  padding: 1rem;
+}
+
+.left-col > p {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 0.7rem;
+  margin-block: 0.4rem;
+}
+
+.left-col > input {
+  background-color: whitesmoke;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dropdownContainer {
+  margin-block: 1rem;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: black;
+  transition: all 0.5s;
+}
+
+.dropdownHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  background-color: rgba(97, 97, 97, 0.3);
+  padding: 0.5rem;
+}
+
+.drowdownHeader > span {
+  font-size: 1rem;
+}
+
+.dropdown > ul {
+  background-color: rgba(97, 97, 97, 0.2);
+  width: 100%;
+  padding-left: 0.4rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.75rem;
+}
+
+.dropdown > ul > li {
+  list-style: none;
+  padding-left: 0.5rem;
+  padding-block: 0.2rem;
+}
+
+.right-col {
+  padding: 1rem;
+}
+
+.right-col > h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.right-col > p {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.table {
+  padding-top: 0.5rem;
+}
+
+.table-header {
+  background-color: rgba(97, 97, 97, 0.15);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0.5rem 3rem;
+  border-radius: 50px;
+}
+
+.table-header > div {
+  display: flex;
+  gap: 1.5rem;
+  /* border: 1px solid red; */
+}
+
+.table-header > div > p {
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.9);
+  padding-left: 0.5rem;
+}
+
+.table-header > div > svg {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.table-list {
+  padding-inline: 2rem;
+}
+
+.table-list > ul > li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1rem;
+}
+
+.name-area {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.name-area > .user-emoticon {
+  grid-row: span 2;
+  padding: 0.6rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(97, 97, 97, 0.15);
+  border-radius: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(97, 97, 97, 0.7);
+}
+
+.name-area > p {
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding-left: 6px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.name-area > span {
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding-left: 6px;
+  color: rgba(97, 97, 97, 0.6);
+}
+
+.detail-area {
+  padding-left: 0.5rem;
+}
+
+.detail-area > p {
+  font-size: 1.1rem;
+}
+
+.detail-area > span {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgba(97, 97, 97, 0.6);
+}
+
+.table-list > ul > li > p {
+  text-transform: capitalize;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding-left: 8px;
+  color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+}
